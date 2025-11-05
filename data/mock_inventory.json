@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "MacBook Air", "quantity": 5 },
+  { "id": 2, "name": "iPhone 15", "quantity": 0 },
+  { "id": 3, "name": "Dell XPS 13", "quantity": 2 }
+]
