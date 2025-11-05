@@ -2,14 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/index.py",
+      "src": "main.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/mcp",
-      "dest": "api/index.py"
+      "methods": ["POST"],
+      "dest": "main.py"
     }
   ]
 }
